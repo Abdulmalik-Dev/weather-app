@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Main Style File  -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Font Google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img class="background" src="https://source.unsplash.com/1600x900/?mecca" alt="">
+    <div class="container">
+      <div class="search-bar">
+        <input type="text" value="Makkah al Mukarramah" placeholder="Search" id="search-faild">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <p>Weather in <span id="regoin-name">No Data</span></p>
+      <p class="temp"><span id="temp">No data</span> <sup>o</sup>C</p>
+      <img alt="" id="weather-description-img">
+      <p id="weather-description">No Data</p>
+      <p>Humidity: <span id="weather-humidity">No Data</span></p>
+      <p>Wind Speed: <span id="weather-wind">No Data</span></p>
+    </div>
+
+    <!-- Main javaScript File  -->
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
